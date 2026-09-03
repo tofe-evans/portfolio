@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tofe Evans | Low-Code Automation & Power Platform Specialist</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              800: '#3730a3',
+              900: '#312e81',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-bold shadow-md shadow-indigo-200">
+          TE
+        </div>
+        <div>
+          <span class="font-bold text-slate-900 block leading-tight">Tofe Evans</span>
+          <span class="text-xs text-indigo-600 font-medium">Power Platform & Low-Code Specialist</span>
+        </div>
+      </div>
+      <div class="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-600">
+        <a href="#featured-solution" class="hover:text-indigo-600 transition">Flagship Flow</a>
+        <a href="#case-studies" class="hover:text-indigo-600 transition">Case Studies</a>
+        <a href="#architecture" class="hover:text-indigo-600 transition">Tech Stack</a>
+        <a href="#impact" class="hover:text-indigo-600 transition">Impact & Metrics</a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="#contact" class="px-4 py-2 text-xs sm:text-sm font-semibold text-white bg-indigo-600 rounded-lg shadow hover:bg-indigo-700 transition">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="relative overflow-hidden pt-12 pb-16 lg:pt-20 lg:pb-24 border-b border-slate-200 bg-gradient-to-b from-indigo-50/50 via-white to-slate-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-800 text-xs font-semibold tracking-wide uppercase">
+            <i data-lucide="zap" class="w-3.5 h-3.5"></i> Low-Code Architect + AI Augmented
+          </div>
+          <h1 class="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            Transforming manual workflows into <span class="text-indigo-600">automated business solutions.</span>
+          </h1>
+          <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
+            I specialize in the <strong>Microsoft Power Platform</strong>, designing end-to-end cloud flows, automated diagnostic tools, and dynamic document generation engines that bridge client experience with automated operational backends.
+          </p>
+          <div class="flex flex-wrap gap-4 pt-2">
+            <a href="#featured-solution" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-slate-900 text-white font-medium hover:bg-slate-800 transition shadow">
+              <i data-lucide="workflow" class="w-4 h-4"></i> View Flagship Automation
+            </a>
+            <a href="#case-studies" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-white border border-slate-300 text-slate-700 font-medium hover:bg-slate-100 transition shadow-sm">
+              <i data-lucide="layers" class="w-4 h-4"></i> Explore 4 Case Studies
+            </a>
+          </div>
+        </div>
+
+        <!-- HERO HIGHLIGHT CARD -->
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-2xl p-6 shadow-xl border border-slate-200 relative">
+            <div class="absolute -top-3 right-6 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm flex items-center gap-1">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5"></i> Public Showcase Ready
+            </div>
+            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Verified Solution Impact</h3>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <div class="text-2xl sm:text-3xl font-black text-indigo-600">129%</div>
+                <div class="text-xs text-slate-500 font-medium mt-1">Revenue Target Influenced</div>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <div class="text-2xl sm:text-3xl font-black text-indigo-600">1,200+</div>
+                <div class="text-xs text-slate-500 font-medium mt-1">Automated Tool Submissions</div>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <div class="text-2xl sm:text-3xl font-black text-indigo-600">4 Regions</div>
+                <div class="text-xs text-slate-500 font-medium mt-1">Multi-Region Localization</div>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <div class="text-2xl sm:text-3xl font-black text-indigo-600">100+ Pages</div>
+                <div class="text-xs text-slate-500 font-medium mt-1">Standardized Program Assets</div>
+              </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span class="flex items-center gap-1.5"><i data-lucide="cpu" class="w-4 h-4 text-indigo-500"></i> AI Data Expressions</span>
+              <span class="flex items-center gap-1.5"><i data-lucide="file-check" class="w-4 h-4 text-emerald-500"></i> Dynamic PDF Engine</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- FLAGSHIP PROJECT DEEP DIVE -->
+  <section id="featured-solution" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-indigo-600">Flagship Automation Architecture</span>
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">Geospatial Maturity Assessment Engine</h2>
+          <p class="text-sm sm:text-base text-slate-500 mt-2 max-w-2xl">
+            How a single Power Automate cloud flow transformed a manual consulting assessment into a real-time, automated diagnostic that generates tailored C-suite PDF reports.
+          </p>
+        </div>
+        <div class="mt-4 md:mt-0 flex gap-2">
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-xs font-semibold rounded-md border border-slate-200">Flow: Enterprise Assessment Engine</span>
+          <span class="px-3 py-1 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded-md border border-indigo-200">Production</span>
+        </div>
+      </div>
+
+      <!-- ARCHITECTURE / FLOW VISUALIZER -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <!-- Left: The Power Automate Flow Blueprint -->
+        <div class="lg:col-span-6 bg-slate-900 rounded-2xl p-6 text-slate-200 shadow-xl font-mono text-xs">
+          <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-6 font-sans">
+            <div class="flex items-center space-x-2">
+              <div class="w-3 h-3 rounded-full bg-rose-500"></div>
+              <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+              <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+              <span class="ml-2 text-xs font-bold text-slate-300">Power Automate Flow: GMA Assessment v1</span>
+            </div>
+            <span class="text-[10px] text-emerald-400 bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800">Status: Succeeded (100%)</span>
+          </div>
+
+          <!-- Step by Step Flow Representation -->
+          <div class="space-y-4">
+            <!-- Step 1 -->
+            <div class="p-3 bg-slate-800/80 rounded-lg border border-sky-500/40 hover:border-sky-400 transition">
+              <div class="flex items-center justify-between text-sky-400 font-bold mb-1">
+                <span class="flex items-center gap-2"><i data-lucide="play-circle" class="w-4 h-4"></i> 1. Trigger: Response Submitted</span>
+                <span class="text-[10px] text-slate-400">MS Forms / Web App</span>
+              </div>
+              <p class="text-slate-400 text-[11px] font-sans">Ingests multi-dimension maturity criteria (Strategy, Governance, Tech, Data, Workforce, Services, Investment).</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="p-3 bg-slate-800/80 rounded-lg border border-indigo-500/40 hover:border-indigo-400 transition">
+              <div class="flex items-center justify-between text-indigo-400 font-bold mb-1">
+                <span class="flex items-center gap-2"><i data-lucide="cpu" class="w-4 h-4"></i> 2. Low-Code Logic & AI Data Expressions</span>
+                <span class="text-[10px] text-slate-400">Compose & AI Logic</span>
+              </div>
+              <p class="text-slate-400 text-[11px] font-sans">Normalizes scores, categorizes maturity tier, and generates dynamic radar SVG vectors in memory.</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="p-3 bg-slate-800/80 rounded-lg border border-amber-500/40 hover:border-amber-400 transition">
+              <div class="flex items-center justify-between text-amber-400 font-bold mb-1">
+                <span class="flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4"></i> 3. Dynamic HTML Document Construction</span>
+                <span class="text-[10px] text-slate-400">HTML Template Engine</span>
+              </div>
+              <p class="text-slate-400 text-[11px] font-sans">Populates executive summary, dynamic radar visualization, benchmark comparison, and tailored domain recommendations.</p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="p-3 bg-slate-800/80 rounded-lg border border-emerald-500/40 hover:border-emerald-400 transition">
+              <div class="flex items-center justify-between text-emerald-400 font-bold mb-1">
+                <span class="flex items-center gap-2"><i data-lucide="file-output" class="w-4 h-4"></i> 4. PDF Generation & Dispatch</span>
+                <span class="text-[10px] text-slate-400">OneDrive / PDF Engine</span>
+              </div>
+              <p class="text-slate-400 text-[11px] font-sans">Converts HTML to PDF; automatically emails branded insights report to client stakeholder within 60 seconds.</p>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="p-3 bg-slate-800/80 rounded-lg border border-purple-500/40 hover:border-purple-400 transition">
+              <div class="flex items-center justify-between text-purple-400 font-bold mb-1">
+                <span class="flex items-center gap-2"><i data-lucide="database" class="w-4 h-4"></i> 5. CRM Lead Qualification & Task Creation</span>
+                <span class="text-[10px] text-slate-400">Salesforce Connector</span>
+              </div>
+              <p class="text-slate-400 text-[11px] font-sans">Creates qualified lead, logs assessment results, and alerts assigned Account Executive with targeted advisory actions.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Generated Output Sample (Sanitized Case) -->
+        <div class="lg:col-span-6 space-y-4">
+          <div class="bg-slate-100 rounded-2xl p-5 border border-slate-200">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-slate-600 uppercase tracking-wide flex items-center gap-1.5">
+                <i data-lucide="sparkles" class="w-4 h-4 text-indigo-600"></i> Automated Output Sample
+              </span>
+              <span class="text-[10px] text-slate-500 bg-white px-2 py-0.5 rounded border border-slate-200 font-medium">Anonymized Demo Data</span>
+            </div>
+
+            <!-- Visual Mockup of Generated PDF Pages -->
+            <div class="bg-white rounded-xl shadow-md border border-slate-200 p-4 space-y-4">
+              <div class="border-b border-slate-100 pb-3 flex items-center justify-between">
+                <div>
+                  <div class="text-[10px] text-slate-400 uppercase font-bold tracking-widest">Enterprise Advisory Services</div>
+                  <h4 class="text-base font-bold text-slate-900">Geospatial Maturity Assessment Insights</h4>
+                  <div class="text-xs text-slate-500">Target Organization: <span class="font-semibold text-slate-800">Global Mining Enterprise (Demo Sample)</span></div>
+                </div>
+                <div class="px-2.5 py-1 bg-indigo-50 border border-indigo-100 rounded-md text-right">
+                  <div class="text-[10px] text-indigo-600 font-bold">MATURITY TIER</div>
+                  <div class="text-xs font-black text-indigo-900">ESTABLISHED (Level 3/5)</div>
+                </div>
+              </div>
+
+              <!-- Radar Mockup & Score Distribution -->
+              <div class="grid grid-cols-2 gap-3 pt-1">
+                <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+                  <div class="text-[11px] font-bold text-slate-700 mb-2">Automated Radar Chart</div>
+                  <!-- Mini SVG Radar -->
+                  <div class="flex items-center justify-center h-24">
+                    <svg viewBox="0 0 100 100" class="w-24 h-24">
+                      <polygon points="50,10 90,40 75,85 25,85 10,40" fill="none" stroke="#cbd5e1" stroke-width="1"></polygon>
+                      <polygon points="50,25 75,45 65,75 35,75 25,45" fill="none" stroke="#cbd5e1" stroke-width="1"></polygon>
+                      <polygon points="50,20 80,42 70,80 30,80 20,42" fill="rgba(34, 197, 94, 0.15)" stroke="#16a34a" stroke-width="1.5"></polygon>
+                      <polygon points="50,15 88,38 60,82 35,70 15,48" fill="rgba(249, 115, 22, 0.2)" stroke="#f97316" stroke-width="2"></polygon>
+                    </svg>
+                  </div>
+                  <div class="flex justify-between text-[9px] text-slate-500 mt-1">
+                    <span class="text-orange-600 font-bold">● Client State</span>
+                    <span class="text-emerald-600 font-bold">● Benchmark</span>
+                  </div>
+                </div>
+
+                <div class="p-3 bg-slate-50 rounded-lg border border-slate-100 space-y-2">
+                  <div class="text-[11px] font-bold text-slate-700">Category Score Breakdown</div>
+                  <div class="text-[10px] space-y-1">
+                    <div class="flex justify-between"><span>Technology:</span> <span class="font-bold text-emerald-600">4 / 5</span></div>
+                    <div class="flex justify-between"><span>Investment:</span> <span class="font-bold text-emerald-600">4 / 5</span></div>
+                    <div class="flex justify-between"><span>Strategy:</span> <span class="font-bold text-amber-600">3 / 5</span></div>
+                    <div class="flex justify-between"><span>Governance:</span> <span class="font-bold text-rose-600">2 / 5 (Priority)</span></div>
+                    <div class="flex justify-between"><span>Workforce:</span> <span class="font-bold text-rose-600">2 / 5 (Priority)</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Recommendation output box -->
+              <div class="p-2.5 bg-blue-50/70 border border-blue-200 rounded-lg text-[11px] text-blue-900 leading-snug">
+                <strong>Automated Advisory Output:</strong> "Establish formal Governance Board and structured skills matrix to transition spatial data management from ad-hoc checks to proactive automated validation."
+              </div>
+            </div>
+          </div>
+
+          <div class="p-4 bg-indigo-50/60 rounded-xl border border-indigo-100 text-xs text-slate-700 leading-relaxed">
+            <span class="font-bold text-indigo-900 block mb-1">Key Technical Achievement:</span>
+            Bridged low-code Power Automate with AI-generated data expressions and custom HTML formatting to render dynamic graphics and personalized advisory recommendations without full-stack developer overhead.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES GRID -->
+  <section id="case-studies" class="py-16 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-indigo-600">Portfolio of Work</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">High-Impact Automation Case Studies</h2>
+        <p class="text-sm text-slate-500 mt-2">
+          A selection of diagnostic tools, migration engines, and self-service solutions built using Power Automate, low-code logic, and CRM integrations.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Case Study 1 -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+              <span class="font-semibold text-indigo-600 flex items-center gap-1"><i data-lucide="check-square" class="w-3.5 h-3.5"></i> Diagnostic Engine</span>
+              <span>APAC Enterprise</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">Geospatial Maturity Assessment Tool</h3>
+            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+              <strong>The Problem:</strong> Organizations struggled to understand their spatial technology capability, identifying risks, governance gaps, and investment priorities in a structured format.
+            </p>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              <strong>The Solution:</strong> Architected an end-to-end automated framework using Power Automate to ingest questionnaire results and dynamically output executive-ready PDF insights reports.
+            </p>
+            <div class="mt-4 p-3 bg-slate-50 rounded-lg border border-slate-100 text-xs font-medium text-slate-700">
+              <span class="text-indigo-600 font-bold">Impact:</span> Shifted sales discussions from ad-hoc software demos to defensible, executive-level roadmap consulting.
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-[11px]">
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Power Automate</span>
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Dynamic PDF</span>
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Data Expressions</span>
+          </div>
+        </div>
+
+        <!-- Case Study 2 -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+              <span class="font-semibold text-indigo-600 flex items-center gap-1"><i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i> Lifecycle Tool</span>
+              <span>Enterprise Modernization</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">ArcGIS Enterprise Readiness Assessment Tool</h3>
+            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+              <strong>The Problem:</strong> Clients operating on legacy software versions faced critical deprecation and unsupported software risks due to fears of operational disruption during upgrades.
+            </p>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              <strong>The Solution:</strong> Designed a diagnostic tool and automated planning framework assessing client architecture, dependencies, and business continuity needs to automate sales engineering handoffs.
+            </p>
+            <div class="mt-4 p-3 bg-slate-50 rounded-lg border border-slate-100 text-xs font-medium text-slate-700">
+              <span class="text-indigo-600 font-bold">Impact:</span> Standardized upgrade conversations, reduced technical debt, and turned reactive support tickets into proactive upgrade plans.
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-[11px]">
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Process Mapping</span>
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Upgrade Workflows</span>
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Stakeholder Enablement</span>
+          </div>
+        </div>
+
+        <!-- Case Study 3 -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+              <span class="font-semibold text-indigo-600 flex items-center gap-1"><i data-lucide="globe" class="w-3.5 h-3.5"></i> Multi-Region Self-Service</span>
+              <span>4 APAC Regions</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">ArcGIS User Type Finder & Capability Tool</h3>
+            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+              <strong>The Problem:</strong> A major corporate licensing model update created confusion for GIS managers and Account Executives trying to identify appropriate named user licenses.
+            </p>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              <strong>The Solution:</strong> Designed and localized a self-service decision tool across 4 regions, with automated email workflows informing internal account teams of user access requirements.
+            </p>
+            <div class="mt-4 p-3 bg-slate-50 rounded-lg border border-slate-100 text-xs font-medium text-slate-700">
+              <span class="text-indigo-600 font-bold">Impact:</span> Generated 1,209 submissions (exceeding target of 1,000) and automated stakeholder reporting.
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-[11px]">
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Multi-Region Localization</span>
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Automated Email Triggers</span>
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">1,200+ Submissions</span>
+          </div>
+        </div>
+
+        <!-- Case Study 4 -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+              <span class="font-semibold text-indigo-600 flex items-center gap-1"><i data-lucide="shield-check" class="w-3.5 h-3.5"></i> Qualification Automation</span>
+              <span>Sales & Tiered Services</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">Managed Services Readiness Evaluation Tool</h3>
+            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+              <strong>The Problem:</strong> Sales Development teams had no standardized, automated way to evaluate customer readiness for newly introduced tiered Managed Services packages.
+            </p>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              <strong>The Solution:</strong> Designed the evaluation prototype, formulated diagnostic criteria across architecture and infrastructure, and automated lead routing with the Sales Development team.
+            </p>
+            <div class="mt-4 p-3 bg-slate-50 rounded-lg border border-slate-100 text-xs font-medium text-slate-700">
+              <span class="text-indigo-600 font-bold">Impact:</span> Eliminated manual pre-qualification back-and-forth, directly feeding verified leads into tiered service pipelines.
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-[11px]">
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Salesforce Integration</span>
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Workflow Automation</span>
+            <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded">Lead Qualification</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNICAL BLUEPRINT & LOW-CODE EDGE -->
+  <section id="architecture" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-5 space-y-4">
+          <span class="text-xs font-bold uppercase tracking-widest text-indigo-600">The Modern "Low-Coder" Advantage</span>
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">How I Deliver Complex Solutions Without Full-Stack Overhead</h2>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            I operate as a <strong>functional problem solver</strong> who pairs deep business process understanding with advanced low-code platforms and AI tools to deliver business automations rapidly.
+          </p>
+          
+          <div class="space-y-3 pt-2">
+            <div class="flex items-start gap-3">
+              <div class="w-7 h-7 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center flex-shrink-0 mt-0.5 font-bold text-xs">01</div>
+              <div>
+                <h4 class="text-xs font-bold text-slate-900">AI-Augmented Logic & JSON Handling</h4>
+                <p class="text-xs text-slate-500">I leverage AI prompts to generate precise OData queries, custom Power Automate compose formulas, and Office Scripts (TypeScript) for high-speed delivery.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <div class="w-7 h-7 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center flex-shrink-0 mt-0.5 font-bold text-xs">02</div>
+              <div>
+                <h4 class="text-xs font-bold text-slate-900">End-to-End Journey Design</h4>
+                <p class="text-xs text-slate-500">Having authored corporate User Journeys Handbooks, I build automations designed around the humans using them—not just technical endpoints.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <div class="w-7 h-7 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center flex-shrink-0 mt-0.5 font-bold text-xs">03</div>
+              <div>
+                <h4 class="text-xs font-bold text-slate-900">Enterprise CRM & Operational Integration</h4>
+                <p class="text-xs text-slate-500">Experienced in synchronizing customer interactions with Salesforce tasks, automated calendar bookings, and central reporting dashboards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Matrix Grid -->
+        <div class="lg:col-span-7 bg-slate-50 rounded-2xl p-6 border border-slate-200">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Core Technology Stack & Capabilities</h3>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            
+            <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
+              <div class="flex items-center gap-2 text-indigo-600 font-bold text-sm mb-2">
+                <i data-lucide="zap" class="w-4 h-4"></i> Power Automate
+              </div>
+              <ul class="text-xs text-slate-600 space-y-1.5 list-disc list-inside">
+                <li>Multi-step Cloud Flows & Triggers</li>
+                <li>Complex Expressions & Conditionals</li>
+                <li>Dynamic HTML & PDF Conversion</li>
+                <li>Error handling & run monitoring</li>
+              </ul>
+            </div>
+
+            <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
+              <div class="flex items-center gap-2 text-indigo-600 font-bold text-sm mb-2">
+                <i data-lucide="layout" class="w-4 h-4"></i> Power Platform & Forms
+              </div>
+              <ul class="text-xs text-slate-600 space-y-1.5 list-disc list-inside">
+                <li>Power Apps (Canvas Apps & Prototyping)</li>
+                <li>Microsoft Forms Ingestion</li>
+                <li>SharePoint Lists as Data Sources</li>
+                <li>Excel Scripts (TypeScript low-code)</li>
+              </ul>
+            </div>
+
+            <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
+              <div class="flex items-center gap-2 text-indigo-600 font-bold text-sm mb-2">
+                <i data-lucide="database" class="w-4 h-4"></i> CRM & Data Pipelines
+              </div>
+              <ul class="text-xs text-slate-600 space-y-1.5 list-disc list-inside">
+                <li>Salesforce Task & Lead Automation</li>
+                <li>Automated Email Reporting</li>
+                <li>Power BI Centralized Dashboards</li>
+                <li>Confluence Process Documentation</li>
+              </ul>
+            </div>
+
+            <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
+              <div class="flex items-center gap-2 text-indigo-600 font-bold text-sm mb-2">
+                <i data-lucide="compass" class="w-4 h-4"></i> Strategic Methodologies
+              </div>
+              <ul class="text-xs text-slate-600 space-y-1.5 list-disc list-inside">
+                <li>Customer Journey Mapping</li>
+                <li>Geospatial Maturity Modeling</li>
+                <li>Lifecycle & Versioning Strategy</li>
+                <li>Cross-Functional Sales Enablement</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- METRICS & BUSINESS RESULTS -->
+  <section id="impact" class="py-16 bg-slate-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-indigo-400">Measurable Results</span>
+        <h2 class="text-2xl sm:text-3xl font-bold mt-1">Direct Business Impact</h2>
+        <p class="text-sm text-slate-400 mt-2">
+          Automations are only as valuable as the adoption, efficiency, and revenue alignment they produce.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+        <div class="p-6 rounded-2xl bg-slate-800/60 border border-slate-700">
+          <div class="text-3xl sm:text-4xl font-black text-indigo-400">129%</div>
+          <div class="text-xs font-semibold text-slate-200 uppercase tracking-wide mt-2">Revenue Target Influenced</div>
+          <div class="text-xs text-slate-400 mt-1">Exceeded annual revenue target across digital programs</div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-800/60 border border-slate-700">
+          <div class="text-3xl sm:text-4xl font-black text-indigo-400">203%</div>
+          <div class="text-xs font-semibold text-slate-200 uppercase tracking-wide mt-2">Lead Generation Performance</div>
+          <div class="text-xs text-slate-400 mt-1">Direct leads captured via automated program tools</div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-800/60 border border-slate-700">
+          <div class="text-3xl sm:text-4xl font-black text-indigo-400">100%</div>
+          <div class="text-xs font-semibold text-slate-200 uppercase tracking-wide mt-2">Manual Work Eliminated</div>
+          <div class="text-xs text-slate-400 mt-1">Automated interview booking & executive reporting workflows</div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-800/60 border border-slate-700">
+          <div class="text-3xl sm:text-4xl font-black text-indigo-400">11 Certs</div>
+          <div class="text-xs font-semibold text-slate-200 uppercase tracking-wide mt-2">Continuous Upskilling</div>
+          <div class="text-xs text-slate-400 mt-1">Completed covering Power Automate, Power BI & GIS</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CALL TO ACTION -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wide">
+        Available for Power Platform & Automation Opportunities
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+        Ready to build workflows that drive real business adoption?
+      </h2>
+      <p class="text-base text-slate-600 max-w-xl mx-auto leading-relaxed">
+        Whether you are looking for a <strong>Power Platform Functional Consultant</strong>, <strong>Digital Transformation Lead</strong>, or <strong>Low-Code Automation Specialist</strong>, I bring the combination of client empathy and hands-on flow architecture.
+      </p>
+
+      <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="mailto:contact@tofeevans.com" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-indigo-600 text-white font-semibold shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition">
+          <i data-lucide="mail" class="w-4 h-4"></i> Schedule a Discussion
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 bg-slate-50 border-t border-slate-200 text-center text-xs text-slate-400">
+    <div class="max-w-6xl mx-auto px-4">
+      <p>© 2026 Tofe Evans. Built with Power Platform & Low-Code Best Practices.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+</body>
+</html>
