@@ -72,7 +72,7 @@
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 pt-8 border-t border-slate-800/80 font-mono text-xs">
         <div>
           <span class="text-slate-500 block text-[11px]">VALUE INFLUENCED</span>
-          <span class="text-xl font-bold text-white mt-0.5 block">$500k+</span>
+          <span class="text-xl font-bold text-white mt-0.5 block">$800k+</span>
           <span class="text-slate-400 text-[11px]">Adoption programmes</span>
         </div>
         <div>
@@ -93,7 +93,7 @@
       </div>
     </section>
 
-    <!-- FLAGSHIP PROJECT DEEP DIVE -->
+    <!-- FLAGSHIP PROJECT DEEP DIVE: GEOSPATIAL AI READINESS ENGINE -->
     <section id="featured-solution" class="space-y-6">
       <div class="flex flex-col sm:flex-row sm:items-baseline justify-between border-b border-slate-800 pb-4 gap-2">
         <div>
@@ -101,18 +101,18 @@
           <h2 class="text-xl sm:text-2xl font-bold text-white mt-1">Geospatial AI Readiness Assessment & Insights Engine</h2>
         </div>
         <span class="text-xs font-mono text-slate-400 bg-slate-900 border border-slate-800 px-2.5 py-1 rounded w-fit">
-          Stack: Power Automate • Dynamic PDF • HubSpot • Salesforce
+          Stack: Power Automate • Dynamic SVG Radar • PDF Engine • HubSpot • Salesforce
         </span>
       </div>
 
       <p class="text-sm text-slate-400 leading-relaxed max-w-3xl">
-        A self-service diagnostic and enablement framework that evaluates an organization across 7 core capability dimensions (Strategy, Governance, Technology, Data, Workforce, Service Delivery, and Investment). The flow ingests assessment data, computes normalized maturity tiers, and automatically compiles an 8-page executive insights report complete with a sequenced 30/90/180-day operational roadmap.
+        A self-service diagnostic and enablement framework that evaluates an organisation across 7 core capability dimensions (Strategy, Governance, Technology, Data, Workforce, Service Delivery, and Investment). The flow ingests assessment data, computes normalised maturity tiers, and automatically compiles an 8-page executive insights report complete with an in-memory radar chart and a sequenced 30/90/180-day operational roadmap.
       </p>
 
       <!-- WORKFLOW DOSSIER BOX -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-slate-900/60 border border-slate-800 rounded-xl p-6">
         
-        <!-- Logic Sequence -->
+        <!-- Left: Logic Sequence -->
         <div class="lg:col-span-6 space-y-4 font-mono text-xs">
           <div class="text-slate-400 font-semibold tracking-wider uppercase text-[11px] pb-2 border-b border-slate-800">
             Pipeline Architecture
@@ -135,8 +135,8 @@
             </div>
 
             <div class="p-3 rounded border border-slate-800 bg-[#0c0d12]">
-              <span class="text-indigo-400 font-bold block mb-1">04 / Dynamic PDF Generation & Dispatch</span>
-              <p class="text-slate-400 font-sans text-xs">Populates HTML template with SVG visuals and domain recommendations; automatically renders and emails an 8-page PDF to client stakeholders in under 60 seconds.</p>
+              <span class="text-indigo-400 font-bold block mb-1">04 / Dynamic SVG Radar & PDF Generation</span>
+              <p class="text-slate-400 font-sans text-xs">Populates HTML template with an in-memory vector radar visual and tailored domain recommendations; automatically renders and emails an 8-page PDF to client stakeholders in under 60 seconds.</p>
             </div>
 
             <div class="p-3 rounded border border-slate-800 bg-[#0c0d12]">
@@ -146,40 +146,104 @@
           </div>
         </div>
 
-        <!-- Specimen Visualisation -->
+        <!-- Right: Specimen Visualisation with Dynamic Radar -->
         <div class="lg:col-span-6 bg-[#0c0d12] border border-slate-800 rounded-lg p-5 flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between pb-3 border-b border-slate-800 text-[11px] font-mono">
-              <span class="text-slate-400">Specimen / Executive Output</span>
-              <span class="text-emerald-400">Maturity: Level 3.0</span>
+              <span class="text-slate-400">Specimen / Generated GeoAI Report Output</span>
+              <span class="text-indigo-400 font-semibold">Tier: Established (3.0/5.0)</span>
             </div>
 
-            <div class="mt-4 space-y-3 font-sans">
-              <div class="text-xs">
-                <span class="text-slate-500 block uppercase font-mono text-[10px]">Assessment Domain Scores</span>
-                <div class="grid grid-cols-2 gap-2 mt-2 font-mono text-xs">
-                  <div class="p-2 bg-slate-900 border border-slate-800 rounded flex justify-between">
+            <!-- Radar Visual + Score Strip -->
+            <div class="mt-4 p-4 bg-slate-900/90 border border-slate-800 rounded-lg space-y-4 font-sans">
+              
+              <!-- 7-Domain SVG Radar Chart -->
+              <div class="flex flex-col items-center">
+                <div class="text-[10px] font-mono uppercase text-slate-400 mb-2 tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="radar" class="w-3.5 h-3.5 text-indigo-400"></i>
+                  <span>Dynamic 7-Domain Radar Visualization</span>
+                </div>
+                
+                <div class="relative w-56 h-56 flex items-center justify-center">
+                  <svg viewBox="0 0 240 240" class="w-full h-full drop-shadow">
+                    <!-- Heptagonal Grid Lines (Maturity Levels 1 to 5) -->
+                    <!-- Outer Level 5 -->
+                    <polygon points="120,20 207,62 218,158 147,218 93,218 22,158 33,62" fill="none" stroke="#334155" stroke-width="1"></polygon>
+                    <!-- Level 3 -->
+                    <polygon points="120,60 172,85 179,143 136,179 104,179 61,143 68,85" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="2,2"></polygon>
+                    <!-- Axis Spoke Lines -->
+                    <line x1="120" y1="120" x2="120" y2="20" stroke="#1e293b" stroke-width="1"></line>
+                    <line x1="120" y1="120" x2="207" y2="62" stroke="#1e293b" stroke-width="1"></line>
+                    <line x1="120" y1="120" x2="218" y2="158" stroke="#1e293b" stroke-width="1"></line>
+                    <line x1="120" y1="120" x2="147" y2="218" stroke="#1e293b" stroke-width="1"></line>
+                    <line x1="120" y1="120" x2="93" y2="218" stroke="#1e293b" stroke-width="1"></line>
+                    <line x1="120" y1="120" x2="22" y2="158" stroke="#1e293b" stroke-width="1"></line>
+                    <line x1="120" y1="120" x2="33" y2="62" stroke="#1e293b" stroke-width="1"></line>
+
+                    <!-- Industry Benchmark (Level 3 Baseline) -->
+                    <polygon points="120,60 172,85 179,143 136,179 104,179 61,143 68,85" 
+                             fill="rgba(16, 185, 129, 0.08)" stroke="#10b981" stroke-width="1.5" stroke-dasharray="3,3"></polygon>
+
+                    <!-- Client Score Polygon (Strategy:2, Gov:4, Tech:3, Data:3.5, Workforce:3.5, Service:2, Investment:2.5) -->
+                    <polygon points="120,80 190,74 179,143 139,189 97,189 42,150 51,74" 
+                             fill="rgba(99, 102, 241, 0.35)" stroke="#6366f1" stroke-width="2"></polygon>
+
+                    <!-- Data Points -->
+                    <circle cx="120" cy="80" r="3" fill="#818cf8"></circle>
+                    <circle cx="190" cy="74" r="3" fill="#818cf8"></circle>
+                    <circle cx="179" cy="143" r="3" fill="#818cf8"></circle>
+                    <circle cx="139" cy="189" r="3" fill="#818cf8"></circle>
+                    <circle cx="97" cy="189" r="3" fill="#818cf8"></circle>
+                    <circle cx="42" cy="150" r="3" fill="#818cf8"></circle>
+                    <circle cx="51" cy="74" r="3" fill="#818cf8"></circle>
+
+                    <!-- Labels -->
+                    <text x="120" y="14" fill="#94a3b8" font-size="8" text-anchor="middle" font-family="monospace">Strategy (2.0)</text>
+                    <text x="215" y="60" fill="#10b981" font-size="8" text-anchor="start" font-family="monospace">Gov (4.0)</text>
+                    <text x="224" y="162" fill="#94a3b8" font-size="8" text-anchor="start" font-family="monospace">Tech (3.0)</text>
+                    <text x="150" y="232" fill="#94a3b8" font-size="8" text-anchor="middle" font-family="monospace">Data (3.5)</text>
+                    <text x="90" y="232" fill="#94a3b8" font-size="8" text-anchor="middle" font-family="monospace">Workforce (3.5)</text>
+                    <text x="15" y="162" fill="#f43f5e" font-size="8" text-anchor="end" font-family="monospace">Service (2.0)</text>
+                    <text x="25" y="60" fill="#f59e0b" font-size="8" text-anchor="end" font-family="monospace">Invest (2.5)</text>
+                  </svg>
+                </div>
+
+                <div class="flex items-center justify-center gap-4 text-[10px] font-mono mt-2">
+                  <span class="flex items-center gap-1.5 text-indigo-400">
+                    <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Client Readiness
+                  </span>
+                  <span class="flex items-center gap-1.5 text-emerald-400">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Industry Benchmark (L3)
+                  </span>
+                </div>
+              </div>
+
+              <!-- Domain Breakdown Matrix -->
+              <div class="pt-3 border-t border-slate-800">
+                <span class="text-slate-500 block uppercase font-mono text-[10px] mb-2">Assessment Domain Scores</span>
+                <div class="grid grid-cols-2 gap-2 font-mono text-xs">
+                  <div class="p-2 bg-[#0c0d12] border border-slate-800 rounded flex justify-between">
                     <span class="text-slate-400">Governance</span>
                     <span class="text-emerald-400 font-bold">4.0/5</span>
                   </div>
-                  <div class="p-2 bg-slate-900 border border-slate-800 rounded flex justify-between">
+                  <div class="p-2 bg-[#0c0d12] border border-slate-800 rounded flex justify-between">
                     <span class="text-slate-400">Data</span>
                     <span class="text-emerald-400 font-bold">3.5/5</span>
                   </div>
-                  <div class="p-2 bg-slate-900 border border-slate-800 rounded flex justify-between">
+                  <div class="p-2 bg-[#0c0d12] border border-slate-800 rounded flex justify-between">
                     <span class="text-slate-400">Workforce</span>
                     <span class="text-emerald-400 font-bold">3.5/5</span>
                   </div>
-                  <div class="p-2 bg-slate-900 border border-slate-800 rounded flex justify-between">
+                  <div class="p-2 bg-[#0c0d12] border border-slate-800 rounded flex justify-between">
                     <span class="text-slate-400">Technology</span>
                     <span class="text-indigo-400 font-bold">3.0/5</span>
                   </div>
                 </div>
               </div>
 
-              <div class="mt-4 p-3 bg-slate-900 border border-slate-800 rounded text-xs space-y-1">
+              <div class="p-3 bg-[#0c0d12] border border-slate-800 rounded text-xs space-y-1">
                 <span class="text-amber-400 font-mono text-[11px] font-bold block">Priority Action Areas Identified</span>
-                <p class="text-slate-400 text-[11px] leading-relaxed">
+                <p class="text-slate-400 text-[11px] leading-relaxed font-sans">
                   Strategy (2.0/5) and Service Delivery (2.0/5). The automated engine generated structured recommendations to move pilot experiments into supported operational workflows.
                 </p>
               </div>
@@ -212,7 +276,7 @@
             </div>
             <h3 class="text-base font-bold text-white">Customer Success AI Copilot Agents</h3>
             <p class="text-xs text-slate-400 leading-relaxed">
-              Designed and deployed specialized Copilot agents utilizing Retrieval-Augmented Generation (RAG architecture) to synthesize corporate technical documentation and operational updates. Enabled Customer Success personnel to query licensing models and customer enablement pathways instantly.
+              Designed and deployed specialised Copilot agents utilising Retrieval-Augmented Generation (RAG architecture) to synthesise corporate technical documentation and operational updates. Enabled Customer Success personnel to query licensing models and customer enablement pathways instantly.
             </p>
           </div>
           <div class="pt-3 border-t border-slate-800 text-[11px] font-mono text-indigo-400">
